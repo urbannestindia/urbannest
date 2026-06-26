@@ -3,39 +3,100 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UrbanNest - Everything You Need, One Place</title>
+  <title>UrbanNest</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial,Helvetica,sans-serif;
+    }
+
+    body{
+      background:#f7f9fc;
+    }
+
+    nav{
+      background:#ffffff;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:18px 8%;
+      box-shadow:0 2px 15px rgba(0,0,0,.08);
+      position:sticky;
+      top:0;
+    }
+
+    .logo{
+      color:#1565ff;
+      font-size:28px;
+      font-weight:bold;
+    }
+
+    nav ul{
+      display:flex;
+      list-style:none;
+      gap:30px;
+    }
+
+    nav a{
+      text-decoration:none;
+      color:#333;
+      font-weight:600;
+    }
+
+    .hero{
+      text-align:center;
+      padding:80px 20px;
+      background:linear-gradient(135deg,#1565ff,#ff8fd1);
+      color:white;
+    }
+
+    .hero h1{
+      font-size:50px;
+      margin-bottom:15px;
+    }
+
+    .hero p{
+      font-size:20px;
+      margin-bottom:25px;
+    }
+
+    .btn{
+      background:white;
+      color:#1565ff;
+      padding:14px 30px;
+      border-radius:30px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+  </style>
 </head>
 
 <body>
 
-  <h1>🛍️ UrbanNest</h1>
-  <p>Everything You Need, One Place.</p>
+<nav>
+<div class="logo">UrbanNest</div>
 
-  <hr>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Shop</a></li>
+<li><a href="#">Categories</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
 
-  <h2>🔥 Trending Products</h2>
+</nav>
 
-  <div>
-    <h3>Wireless Earbuds</h3>
-    <p>₹999</p>
-    <button>Add to Cart</button>
-  </div>
+<section class="hero">
 
-  <br>
+<h1>Everything You Need,<br>One Place.</h1>
 
-  <div>
-    <h3>Smart Watch</h3>
-    <p>₹1,499</p>
-    <button>Add to Cart</button>
-  </div>
+<p>Premium Shopping Experience For India 🇮🇳</p>
 
-  <br>
+<a class="btn" href="#">Shop Now</a>
 
-  <div>
-    <h3>Portable Blender</h3>
-    <p>₹799</p>
-    <button>Add to Cart</button>
-  </div>
+</section>
 
 </body>
 </html>
